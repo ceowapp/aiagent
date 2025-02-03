@@ -1,0 +1,17 @@
+PORT: "8000"
+ENVIRONMENT: "development"
+VERSION: "1.0.0"
+
+DATABASE:
+  HOST: "localhost"
+  PORT: "5432"
+  USER: "postgres"
+  PASSWORD: "BXoBEvNZ1RePanOK"
+  NAME: "aiagent"
+  SSLMODE: "disable"
+  URL: "postgres://postgres.lscjsbziraewphswzmxs:BXoBEvNZ1RePanOK@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
+
+
+CORS:
+  ALLOWED_ORIGINS:
+    - "http://localhost:3000"
