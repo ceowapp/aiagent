@@ -1,0 +1,29 @@
+# Shopify specific
+.shopify
+
+# Node modules (for frontend)
+node_modules
+
+# Next.js build output
+.next
+
+# Vercel configuration
+.vercel
+
+# Go build and dependencies (for backend)
+backend/bin
+backend/pkg
+backend/vendor
+
+# Ignore any Go-related files, such as compiled Go binaries or modules
+backend/*.exe
+backend/*.out
+backend/*.log
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Local Netlify folder (if applicable)
+.netlify
