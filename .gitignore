@@ -2,7 +2,7 @@
 .shopify
 
 # Node modules (for frontend)
-node_modules
+frontend/node_modules
 
 # Next.js build output
 .next
